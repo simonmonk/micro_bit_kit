@@ -2,7 +2,7 @@ from microbit import *
 
 def read_temp_c():
     reading = pin1.read_analog()
-    temp_c = round(reading * 0.075 - 17)
+    temp_c = round(reading * 0.157 - 54)
     return temp_c
 
 set_temp = read_temp_c() + 2
