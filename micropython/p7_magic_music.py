@@ -1,7 +1,7 @@
 from microbit import *
 import music
 
-multiplier = 50
+multiplier = 20
 
 baseline_lightness = pin2.read_analog()
 
