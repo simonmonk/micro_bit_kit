@@ -1,6 +1,6 @@
 from microbit import *
 
-min_power = 600
+min_power = 300
 max_power = 1023
 power_step = (max_power - min_power) / 9
 speed = 0
